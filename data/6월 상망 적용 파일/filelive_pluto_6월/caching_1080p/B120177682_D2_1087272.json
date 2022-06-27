@@ -1,0 +1,34 @@
+{
+	"server_id": "manager_1234",
+	"command": "ch_add",
+	"channel": {
+		"id": "cocos_program_B120177682_D2_1087272",
+		"version": "v1",
+		"input": {
+			"type": "file",
+			"socket_timeout": 3,
+			"reconnect_timeout": 60,
+			"options": {
+				"retry_period": 3,
+				"max_retry_count": 0
+			},
+			"streams": [
+				{
+					"adaptive_id": "1080p",
+					"urls": [
+						"http://Y2pjb2Nvc3N0Z0BjamVubXN0b3I6MjU1MmM1MjVhOWRkMTUzNTcwNjFiZTIzMTcyMzRlNjU=@cjcocosstg.x-cdn.com/dav/CLIP/COCOS/SST/B120177682/1087272/B120177682_1087272_g60_t35.mp4"
+					]
+				},
+				{
+					"name": "english",
+					"type": "subtitle",
+					"lang": "eng",
+					"variant": true,
+					"urls": [
+						"http://Y2pjb2Nvc3N0Z0BjamVubXN0b3I6MjU1MmM1MjVhOWRkMTUzNTcwNjFiZTIzMTcyMzRlNjU=@cjcocosstg.x-cdn.com/dav/CLIP/COCOS/SUBTITLE/B120177682/f47c7fd9-8378-4875-a25c-930a7c3a77db.srt"
+					]
+				}
+			]
+		}
+	}
+}
