@@ -147,6 +147,7 @@ class templete {
           },
           "hls": {
             "ad_marker": "scte35enh",
+            "discontinuity_seq": true,
             "memory_caching": false,
             "start_sequence_num": 0,
             "hls_version": 3,
