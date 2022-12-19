@@ -1,0 +1,3643 @@
+{
+	"server_id": "manager_1234",
+	"command": "ch_add",
+	"channel": {
+		"id": "ch_id",
+		"version": "v1",
+		"category": "live",
+		"input": {
+			"type": "schedule",
+			"socket_timeout": 3,
+			"reconnect_timeout": 300,
+			"streams": [
+				{
+					"adaptive_id": "1080p",
+					"variant": true,
+					"urls": [
+						"file:///stg/solrtmp/file/default_1080p.mp4"
+					]
+				},
+				{
+					"adaptive_id": "720p",
+					"variant": true,
+					"urls": [
+						"file:///stg/solrtmp/file/default_720p.mp4"
+					]
+				},
+				{
+					"adaptive_id": "480p",
+					"variant": true,
+					"urls": [
+						"file:///stg/solrtmp/file/default_480p.mp4"
+					]
+				},
+				{
+					"adaptive_id": "360p",
+					"variant": true,
+					"urls": [
+						"file:///stg/solrtmp/file/default_360p.mp4"
+					]
+				},
+				{
+					"adaptive_id": "240p",
+					"variant": true,
+					"urls": [
+						"file:///stg/solrtmp/file/default_240p.mp4"
+					]
+				}
+			]
+		},
+		"schedule": {
+			"loop": true,
+			"sync_timeout": 2,
+			"range_start_by": "front",
+			"auto_adaptive_mapping": "media",
+			"list": [
+				{
+					"start_date": "20221214T16:43:48",
+					"id": "schid_1_1",
+					"ch_id": "cocos_program_B120212249_D1_847998",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_1_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_1_2",
+					"ch_id": "cocos_program_B120212249_D1_847998",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_1_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_1_3",
+					"ch_id": "cocos_program_B120212249_D1_847998",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_1_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_1_4",
+					"ch_id": "cocos_program_B120212249_D1_847998",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_1_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_1_5",
+					"ch_id": "cocos_program_B120212249_D1_847998",
+					"range": {
+						"start": 2400000,
+						"end": 2807000
+					}
+				},
+				{
+					"id": "schid_2_1",
+					"ch_id": "cocos_program_B120212249_D2_848001",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_2_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_2_2",
+					"ch_id": "cocos_program_B120212249_D2_848001",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_2_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_2_3",
+					"ch_id": "cocos_program_B120212249_D2_848001",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_2_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_2_4",
+					"ch_id": "cocos_program_B120212249_D2_848001",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_2_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_2_5",
+					"ch_id": "cocos_program_B120212249_D2_848001",
+					"range": {
+						"start": 2400000,
+						"end": 2887000
+					}
+				},
+				{
+					"id": "schid_3_1",
+					"ch_id": "cocos_program_B120212249_D3_849051",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_3_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_3_2",
+					"ch_id": "cocos_program_B120212249_D3_849051",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_3_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_3_3",
+					"ch_id": "cocos_program_B120212249_D3_849051",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_3_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_3_4",
+					"ch_id": "cocos_program_B120212249_D3_849051",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_3_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_3_5",
+					"ch_id": "cocos_program_B120212249_D3_849051",
+					"range": {
+						"start": 2400000,
+						"end": 2786000
+					}
+				},
+				{
+					"id": "schid_4_1",
+					"ch_id": "cocos_program_B120212249_D4_850780",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_4_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_4_2",
+					"ch_id": "cocos_program_B120212249_D4_850780",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_4_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_4_3",
+					"ch_id": "cocos_program_B120212249_D4_850780",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_4_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_4_4",
+					"ch_id": "cocos_program_B120212249_D4_850780",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_4_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_4_5",
+					"ch_id": "cocos_program_B120212249_D4_850780",
+					"range": {
+						"start": 2400000,
+						"end": 2807000
+					}
+				},
+				{
+					"id": "schid_5_1",
+					"ch_id": "cocos_program_B120212249_D5_852316",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_5_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_5_2",
+					"ch_id": "cocos_program_B120212249_D5_852316",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_5_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_5_3",
+					"ch_id": "cocos_program_B120212249_D5_852316",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_5_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_5_4",
+					"ch_id": "cocos_program_B120212249_D5_852316",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_5_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_5_5",
+					"ch_id": "cocos_program_B120212249_D5_852316",
+					"range": {
+						"start": 2400000,
+						"end": 2802000
+					}
+				},
+				{
+					"id": "schid_6_1",
+					"ch_id": "cocos_program_B120212249_D6_853192",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_6_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_6_2",
+					"ch_id": "cocos_program_B120212249_D6_853192",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_6_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_6_3",
+					"ch_id": "cocos_program_B120212249_D6_853192",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_6_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_6_4",
+					"ch_id": "cocos_program_B120212249_D6_853192",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_6_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_6_5",
+					"ch_id": "cocos_program_B120212249_D6_853192",
+					"range": {
+						"start": 2400000,
+						"end": 2807000
+					}
+				},
+				{
+					"id": "schid_7_1",
+					"ch_id": "cocos_program_B120212249_D7_855235",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_7_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_7_2",
+					"ch_id": "cocos_program_B120212249_D7_855235",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_7_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_7_3",
+					"ch_id": "cocos_program_B120212249_D7_855235",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_7_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_7_4",
+					"ch_id": "cocos_program_B120212249_D7_855235",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_7_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_7_5",
+					"ch_id": "cocos_program_B120212249_D7_855235",
+					"range": {
+						"start": 2400000,
+						"end": 2801000
+					}
+				},
+				{
+					"id": "schid_8_1",
+					"ch_id": "cocos_program_B120212249_D8_856165",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_8_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_8_2",
+					"ch_id": "cocos_program_B120212249_D8_856165",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_8_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_8_3",
+					"ch_id": "cocos_program_B120212249_D8_856165",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_8_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_8_4",
+					"ch_id": "cocos_program_B120212249_D8_856165",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_8_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_8_5",
+					"ch_id": "cocos_program_B120212249_D8_856165",
+					"range": {
+						"start": 2400000,
+						"end": 2793000
+					}
+				},
+				{
+					"id": "schid_9_1",
+					"ch_id": "cocos_program_B120212249_D9_857638",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_9_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_9_2",
+					"ch_id": "cocos_program_B120212249_D9_857638",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_9_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_9_3",
+					"ch_id": "cocos_program_B120212249_D9_857638",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_9_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_9_4",
+					"ch_id": "cocos_program_B120212249_D9_857638",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_9_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_9_5",
+					"ch_id": "cocos_program_B120212249_D9_857638",
+					"range": {
+						"start": 2400000,
+						"end": 2809000
+					}
+				},
+				{
+					"id": "schid_10_1",
+					"ch_id": "cocos_program_B120212249_D10_859117",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_10_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_10_2",
+					"ch_id": "cocos_program_B120212249_D10_859117",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_10_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_10_3",
+					"ch_id": "cocos_program_B120212249_D10_859117",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_10_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_10_4",
+					"ch_id": "cocos_program_B120212249_D10_859117",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_10_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_10_5",
+					"ch_id": "cocos_program_B120212249_D10_859117",
+					"range": {
+						"start": 2400000,
+						"end": 2794000
+					}
+				},
+				{
+					"id": "schid_11_1",
+					"ch_id": "cocos_program_B120212249_D11_860149",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_11_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_11_2",
+					"ch_id": "cocos_program_B120212249_D11_860149",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_11_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_11_3",
+					"ch_id": "cocos_program_B120212249_D11_860149",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_11_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_11_4",
+					"ch_id": "cocos_program_B120212249_D11_860149",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_11_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_11_5",
+					"ch_id": "cocos_program_B120212249_D11_860149",
+					"range": {
+						"start": 2400000,
+						"end": 2803000
+					}
+				},
+				{
+					"id": "schid_12_1",
+					"ch_id": "cocos_program_B120212249_D12_862366",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_12_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_12_2",
+					"ch_id": "cocos_program_B120212249_D12_862366",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_12_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_12_3",
+					"ch_id": "cocos_program_B120212249_D12_862366",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_12_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_12_4",
+					"ch_id": "cocos_program_B120212249_D12_862366",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_12_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_12_5",
+					"ch_id": "cocos_program_B120212249_D12_862366",
+					"range": {
+						"start": 2400000,
+						"end": 2798000
+					}
+				},
+				{
+					"id": "schid_13_1",
+					"ch_id": "cocos_program_B120212249_D13_863467",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_13_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_13_2",
+					"ch_id": "cocos_program_B120212249_D13_863467",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_13_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_13_3",
+					"ch_id": "cocos_program_B120212249_D13_863467",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_13_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_13_4",
+					"ch_id": "cocos_program_B120212249_D13_863467",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_13_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_13_5",
+					"ch_id": "cocos_program_B120212249_D13_863467",
+					"range": {
+						"start": 2400000,
+						"end": 2807000
+					}
+				},
+				{
+					"id": "schid_14_1",
+					"ch_id": "cocos_program_B120212249_D14_864340",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_14_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_14_2",
+					"ch_id": "cocos_program_B120212249_D14_864340",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_14_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_14_3",
+					"ch_id": "cocos_program_B120212249_D14_864340",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_14_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_14_4",
+					"ch_id": "cocos_program_B120212249_D14_864340",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_14_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_14_5",
+					"ch_id": "cocos_program_B120212249_D14_864340",
+					"range": {
+						"start": 2400000,
+						"end": 2803000
+					}
+				},
+				{
+					"id": "schid_15_1",
+					"ch_id": "cocos_program_B120212249_D15_866206",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_15_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_15_2",
+					"ch_id": "cocos_program_B120212249_D15_866206",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_15_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_15_3",
+					"ch_id": "cocos_program_B120212249_D15_866206",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_15_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_15_4",
+					"ch_id": "cocos_program_B120212249_D15_866206",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_15_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_15_5",
+					"ch_id": "cocos_program_B120212249_D15_866206",
+					"range": {
+						"start": 2400000,
+						"end": 2792000
+					}
+				},
+				{
+					"id": "schid_16_1",
+					"ch_id": "cocos_program_B120212249_D16_867388",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_16_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_16_2",
+					"ch_id": "cocos_program_B120212249_D16_867388",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_16_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_16_3",
+					"ch_id": "cocos_program_B120212249_D16_867388",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_16_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_16_4",
+					"ch_id": "cocos_program_B120212249_D16_867388",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_16_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_16_5",
+					"ch_id": "cocos_program_B120212249_D16_867388",
+					"range": {
+						"start": 2400000,
+						"end": 2791000
+					}
+				},
+				{
+					"id": "schid_17_1",
+					"ch_id": "cocos_program_B120212249_D17_869273",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_17_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_17_2",
+					"ch_id": "cocos_program_B120212249_D17_869273",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_17_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_17_3",
+					"ch_id": "cocos_program_B120212249_D17_869273",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_17_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_17_4",
+					"ch_id": "cocos_program_B120212249_D17_869273",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_17_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_17_5",
+					"ch_id": "cocos_program_B120212249_D17_869273",
+					"range": {
+						"start": 2400000,
+						"end": 2794000
+					}
+				},
+				{
+					"id": "schid_18_1",
+					"ch_id": "cocos_program_B120212249_D18_870662",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_18_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_18_2",
+					"ch_id": "cocos_program_B120212249_D18_870662",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_18_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_18_3",
+					"ch_id": "cocos_program_B120212249_D18_870662",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_18_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_18_4",
+					"ch_id": "cocos_program_B120212249_D18_870662",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_18_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_18_5",
+					"ch_id": "cocos_program_B120212249_D18_870662",
+					"range": {
+						"start": 2400000,
+						"end": 2804000
+					}
+				},
+				{
+					"id": "schid_19_1",
+					"ch_id": "cocos_program_B120212249_D19_871517",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_19_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_19_2",
+					"ch_id": "cocos_program_B120212249_D19_871517",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_19_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_19_3",
+					"ch_id": "cocos_program_B120212249_D19_871517",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_19_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_19_4",
+					"ch_id": "cocos_program_B120212249_D19_871517",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_19_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_19_5",
+					"ch_id": "cocos_program_B120212249_D19_871517",
+					"range": {
+						"start": 2400000,
+						"end": 2798000
+					}
+				},
+				{
+					"id": "schid_20_1",
+					"ch_id": "cocos_program_B120212249_D20_873116",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_20_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_20_2",
+					"ch_id": "cocos_program_B120212249_D20_873116",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_20_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_20_3",
+					"ch_id": "cocos_program_B120212249_D20_873116",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_20_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_20_4",
+					"ch_id": "cocos_program_B120212249_D20_873116",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_20_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_20_5",
+					"ch_id": "cocos_program_B120212249_D20_873116",
+					"range": {
+						"start": 2400000,
+						"end": 2803000
+					}
+				},
+				{
+					"id": "schid_21_1",
+					"ch_id": "cocos_program_B120212249_D21_874502",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_21_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_21_2",
+					"ch_id": "cocos_program_B120212249_D21_874502",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_21_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_21_3",
+					"ch_id": "cocos_program_B120212249_D21_874502",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_21_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_21_4",
+					"ch_id": "cocos_program_B120212249_D21_874502",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_21_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_21_5",
+					"ch_id": "cocos_program_B120212249_D21_874502",
+					"range": {
+						"start": 2400000,
+						"end": 2805000
+					}
+				},
+				{
+					"id": "schid_22_1",
+					"ch_id": "cocos_program_B120212249_D22_877259",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_22_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_22_2",
+					"ch_id": "cocos_program_B120212249_D22_877259",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_22_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_22_3",
+					"ch_id": "cocos_program_B120212249_D22_877259",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_22_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_22_4",
+					"ch_id": "cocos_program_B120212249_D22_877259",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_22_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_22_5",
+					"ch_id": "cocos_program_B120212249_D22_877259",
+					"range": {
+						"start": 2400000,
+						"end": 2786000
+					}
+				},
+				{
+					"id": "schid_23_1",
+					"ch_id": "cocos_program_B120212249_D23_878261",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_23_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_23_2",
+					"ch_id": "cocos_program_B120212249_D23_878261",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_23_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_23_3",
+					"ch_id": "cocos_program_B120212249_D23_878261",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_23_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_23_4",
+					"ch_id": "cocos_program_B120212249_D23_878261",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_23_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_23_5",
+					"ch_id": "cocos_program_B120212249_D23_878261",
+					"range": {
+						"start": 2400000,
+						"end": 2821000
+					}
+				},
+				{
+					"id": "schid_24_1",
+					"ch_id": "cocos_program_B120212249_D24_879314",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_24_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_24_2",
+					"ch_id": "cocos_program_B120212249_D24_879314",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_24_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_24_3",
+					"ch_id": "cocos_program_B120212249_D24_879314",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_24_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_24_4",
+					"ch_id": "cocos_program_B120212249_D24_879314",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_24_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_24_5",
+					"ch_id": "cocos_program_B120212249_D24_879314",
+					"range": {
+						"start": 2400000,
+						"end": 2808000
+					}
+				},
+				{
+					"id": "schid_25_1",
+					"ch_id": "cocos_program_B120212249_D25_880883",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_25_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_25_2",
+					"ch_id": "cocos_program_B120212249_D25_880883",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_25_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_25_3",
+					"ch_id": "cocos_program_B120212249_D25_880883",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_25_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_25_4",
+					"ch_id": "cocos_program_B120212249_D25_880883",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_25_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_25_5",
+					"ch_id": "cocos_program_B120212249_D25_880883",
+					"range": {
+						"start": 2400000,
+						"end": 2814000
+					}
+				},
+				{
+					"id": "schid_26_1",
+					"ch_id": "cocos_program_B120212249_D26_881972",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_26_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_26_2",
+					"ch_id": "cocos_program_B120212249_D26_881972",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_26_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_26_3",
+					"ch_id": "cocos_program_B120212249_D26_881972",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_26_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_26_4",
+					"ch_id": "cocos_program_B120212249_D26_881972",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_26_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_26_5",
+					"ch_id": "cocos_program_B120212249_D26_881972",
+					"range": {
+						"start": 2400000,
+						"end": 2788000
+					}
+				},
+				{
+					"id": "schid_27_1",
+					"ch_id": "cocos_program_B120212249_D27_882629",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_27_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_27_2",
+					"ch_id": "cocos_program_B120212249_D27_882629",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_27_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_27_3",
+					"ch_id": "cocos_program_B120212249_D27_882629",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_27_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_27_4",
+					"ch_id": "cocos_program_B120212249_D27_882629",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_27_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_27_5",
+					"ch_id": "cocos_program_B120212249_D27_882629",
+					"range": {
+						"start": 2400000,
+						"end": 2798000
+					}
+				},
+				{
+					"id": "schid_28_1",
+					"ch_id": "cocos_program_B120212249_D28_884345",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_28_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_28_2",
+					"ch_id": "cocos_program_B120212249_D28_884345",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_28_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_28_3",
+					"ch_id": "cocos_program_B120212249_D28_884345",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_28_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_28_4",
+					"ch_id": "cocos_program_B120212249_D28_884345",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_28_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_28_5",
+					"ch_id": "cocos_program_B120212249_D28_884345",
+					"range": {
+						"start": 2400000,
+						"end": 2809000
+					}
+				},
+				{
+					"id": "schid_29_1",
+					"ch_id": "cocos_program_B120212249_D29_885539",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_29_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_29_2",
+					"ch_id": "cocos_program_B120212249_D29_885539",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_29_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_29_3",
+					"ch_id": "cocos_program_B120212249_D29_885539",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_29_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_29_4",
+					"ch_id": "cocos_program_B120212249_D29_885539",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_29_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_29_5",
+					"ch_id": "cocos_program_B120212249_D29_885539",
+					"range": {
+						"start": 2400000,
+						"end": 2803000
+					}
+				},
+				{
+					"id": "schid_30_1",
+					"ch_id": "cocos_program_B120212249_D30_886922",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_30_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_30_2",
+					"ch_id": "cocos_program_B120212249_D30_886922",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_30_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_30_3",
+					"ch_id": "cocos_program_B120212249_D30_886922",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_30_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_30_4",
+					"ch_id": "cocos_program_B120212249_D30_886922",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_30_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_30_5",
+					"ch_id": "cocos_program_B120212249_D30_886922",
+					"range": {
+						"start": 2400000,
+						"end": 2792000
+					}
+				},
+				{
+					"id": "schid_31_1",
+					"ch_id": "cocos_program_B120212249_D31_888410",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_31_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_31_2",
+					"ch_id": "cocos_program_B120212249_D31_888410",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_31_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_31_3",
+					"ch_id": "cocos_program_B120212249_D31_888410",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_31_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_31_4",
+					"ch_id": "cocos_program_B120212249_D31_888410",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_31_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_31_5",
+					"ch_id": "cocos_program_B120212249_D31_888410",
+					"range": {
+						"start": 2400000,
+						"end": 2800000
+					}
+				},
+				{
+					"id": "schid_32_1",
+					"ch_id": "cocos_program_B120212249_D32_890984",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_32_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_32_2",
+					"ch_id": "cocos_program_B120212249_D32_890984",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_32_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_32_3",
+					"ch_id": "cocos_program_B120212249_D32_890984",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_32_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_32_4",
+					"ch_id": "cocos_program_B120212249_D32_890984",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_32_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_32_5",
+					"ch_id": "cocos_program_B120212249_D32_890984",
+					"range": {
+						"start": 2400000,
+						"end": 2797000
+					}
+				},
+				{
+					"id": "schid_33_1",
+					"ch_id": "cocos_program_B120212249_D33_892191",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_33_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_33_2",
+					"ch_id": "cocos_program_B120212249_D33_892191",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_33_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_33_3",
+					"ch_id": "cocos_program_B120212249_D33_892191",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_33_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_33_4",
+					"ch_id": "cocos_program_B120212249_D33_892191",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_33_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_33_5",
+					"ch_id": "cocos_program_B120212249_D33_892191",
+					"range": {
+						"start": 2400000,
+						"end": 2799000
+					}
+				},
+				{
+					"id": "schid_34_1",
+					"ch_id": "cocos_program_B120212249_D34_893901",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_34_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_34_2",
+					"ch_id": "cocos_program_B120212249_D34_893901",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_34_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_34_3",
+					"ch_id": "cocos_program_B120212249_D34_893901",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_34_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_34_4",
+					"ch_id": "cocos_program_B120212249_D34_893901",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_34_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_34_5",
+					"ch_id": "cocos_program_B120212249_D34_893901",
+					"range": {
+						"start": 2400000,
+						"end": 2801000
+					}
+				},
+				{
+					"id": "schid_35_1",
+					"ch_id": "cocos_program_B120212249_D35_895419",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_35_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_35_2",
+					"ch_id": "cocos_program_B120212249_D35_895419",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_35_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_35_3",
+					"ch_id": "cocos_program_B120212249_D35_895419",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_35_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_35_4",
+					"ch_id": "cocos_program_B120212249_D35_895419",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_35_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_35_5",
+					"ch_id": "cocos_program_B120212249_D35_895419",
+					"range": {
+						"start": 2400000,
+						"end": 2801000
+					}
+				},
+				{
+					"id": "schid_36_1",
+					"ch_id": "cocos_program_B120212249_D36_896207",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_36_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_36_2",
+					"ch_id": "cocos_program_B120212249_D36_896207",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_36_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_36_3",
+					"ch_id": "cocos_program_B120212249_D36_896207",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_36_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_36_4",
+					"ch_id": "cocos_program_B120212249_D36_896207",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_36_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_36_5",
+					"ch_id": "cocos_program_B120212249_D36_896207",
+					"range": {
+						"start": 2400000,
+						"end": 2807000
+					}
+				},
+				{
+					"id": "schid_37_1",
+					"ch_id": "cocos_program_B120212249_D37_897941",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_37_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_37_2",
+					"ch_id": "cocos_program_B120212249_D37_897941",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_37_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_37_3",
+					"ch_id": "cocos_program_B120212249_D37_897941",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_37_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_37_4",
+					"ch_id": "cocos_program_B120212249_D37_897941",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_37_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_37_5",
+					"ch_id": "cocos_program_B120212249_D37_897941",
+					"range": {
+						"start": 2400000,
+						"end": 2802000
+					}
+				},
+				{
+					"id": "schid_38_1",
+					"ch_id": "cocos_program_B120212249_D38_906635",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_38_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_38_2",
+					"ch_id": "cocos_program_B120212249_D38_906635",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_38_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_38_3",
+					"ch_id": "cocos_program_B120212249_D38_906635",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_38_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_38_4",
+					"ch_id": "cocos_program_B120212249_D38_906635",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_38_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_38_5",
+					"ch_id": "cocos_program_B120212249_D38_906635",
+					"range": {
+						"start": 2400000,
+						"end": 2787000
+					}
+				},
+				{
+					"id": "schid_39_1",
+					"ch_id": "cocos_program_B120212249_D39_900323",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_39_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_39_2",
+					"ch_id": "cocos_program_B120212249_D39_900323",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_39_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_39_3",
+					"ch_id": "cocos_program_B120212249_D39_900323",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_39_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_39_4",
+					"ch_id": "cocos_program_B120212249_D39_900323",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_39_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_39_5",
+					"ch_id": "cocos_program_B120212249_D39_900323",
+					"range": {
+						"start": 2400000,
+						"end": 2802000
+					}
+				},
+				{
+					"id": "schid_40_1",
+					"ch_id": "cocos_program_B120212249_D40_901913",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_40_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_40_2",
+					"ch_id": "cocos_program_B120212249_D40_901913",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_40_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_40_3",
+					"ch_id": "cocos_program_B120212249_D40_901913",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_40_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_40_4",
+					"ch_id": "cocos_program_B120212249_D40_901913",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_40_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_40_5",
+					"ch_id": "cocos_program_B120212249_D40_901913",
+					"range": {
+						"start": 2400000,
+						"end": 2795000
+					}
+				},
+				{
+					"id": "schid_41_1",
+					"ch_id": "cocos_program_B120212249_D41_903038",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_41_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_41_2",
+					"ch_id": "cocos_program_B120212249_D41_903038",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_41_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_41_3",
+					"ch_id": "cocos_program_B120212249_D41_903038",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_41_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_41_4",
+					"ch_id": "cocos_program_B120212249_D41_903038",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_41_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_41_5",
+					"ch_id": "cocos_program_B120212249_D41_903038",
+					"range": {
+						"start": 2400000,
+						"end": 2801000
+					}
+				},
+				{
+					"id": "schid_42_1",
+					"ch_id": "cocos_program_B120212249_D42_905213",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_42_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_42_2",
+					"ch_id": "cocos_program_B120212249_D42_905213",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_42_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_42_3",
+					"ch_id": "cocos_program_B120212249_D42_905213",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_42_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_42_4",
+					"ch_id": "cocos_program_B120212249_D42_905213",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_42_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_42_5",
+					"ch_id": "cocos_program_B120212249_D42_905213",
+					"range": {
+						"start": 2400000,
+						"end": 2804000
+					}
+				},
+				{
+					"id": "schid_43_1",
+					"ch_id": "cocos_program_B120212249_D43_906554",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_43_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_43_2",
+					"ch_id": "cocos_program_B120212249_D43_906554",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_43_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_43_3",
+					"ch_id": "cocos_program_B120212249_D43_906554",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_43_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_43_4",
+					"ch_id": "cocos_program_B120212249_D43_906554",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_43_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_43_5",
+					"ch_id": "cocos_program_B120212249_D43_906554",
+					"range": {
+						"start": 2400000,
+						"end": 2809000
+					}
+				},
+				{
+					"id": "schid_44_1",
+					"ch_id": "cocos_program_B120212249_D44_907745",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_44_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_44_2",
+					"ch_id": "cocos_program_B120212249_D44_907745",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_44_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_44_3",
+					"ch_id": "cocos_program_B120212249_D44_907745",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_44_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_44_4",
+					"ch_id": "cocos_program_B120212249_D44_907745",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_44_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_44_5",
+					"ch_id": "cocos_program_B120212249_D44_907745",
+					"range": {
+						"start": 2400000,
+						"end": 2797000
+					}
+				},
+				{
+					"id": "schid_45_1",
+					"ch_id": "cocos_program_B120212249_D45_908999",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_45_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_45_2",
+					"ch_id": "cocos_program_B120212249_D45_908999",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_45_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_45_3",
+					"ch_id": "cocos_program_B120212249_D45_908999",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_45_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_45_4",
+					"ch_id": "cocos_program_B120212249_D45_908999",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_45_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_45_5",
+					"ch_id": "cocos_program_B120212249_D45_908999",
+					"range": {
+						"start": 2400000,
+						"end": 2817000
+					}
+				},
+				{
+					"id": "schid_46_1",
+					"ch_id": "cocos_program_B120212249_D46_910349",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_46_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_46_2",
+					"ch_id": "cocos_program_B120212249_D46_910349",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_46_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_46_3",
+					"ch_id": "cocos_program_B120212249_D46_910349",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_46_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_46_4",
+					"ch_id": "cocos_program_B120212249_D46_910349",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_46_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_46_5",
+					"ch_id": "cocos_program_B120212249_D46_910349",
+					"range": {
+						"start": 2400000,
+						"end": 2801000
+					}
+				},
+				{
+					"id": "schid_47_1",
+					"ch_id": "cocos_program_B120212249_D47_912342",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_47_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_47_2",
+					"ch_id": "cocos_program_B120212249_D47_912342",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_47_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_47_3",
+					"ch_id": "cocos_program_B120212249_D47_912342",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_47_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_47_4",
+					"ch_id": "cocos_program_B120212249_D47_912342",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_47_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_47_5",
+					"ch_id": "cocos_program_B120212249_D47_912342",
+					"range": {
+						"start": 2400000,
+						"end": 2996000
+					}
+				},
+				{
+					"id": "schid_48_1",
+					"ch_id": "cocos_program_B120212249_D48_913671",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_48_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_48_2",
+					"ch_id": "cocos_program_B120212249_D48_913671",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_48_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_48_3",
+					"ch_id": "cocos_program_B120212249_D48_913671",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_48_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_48_4",
+					"ch_id": "cocos_program_B120212249_D48_913671",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_48_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_48_5",
+					"ch_id": "cocos_program_B120212249_D48_913671",
+					"range": {
+						"start": 2400000,
+						"end": 2962000
+					}
+				},
+				{
+					"id": "schid_49_1",
+					"ch_id": "cocos_program_B120212249_D49_915216",
+					"range": {
+						"start": 0,
+						"end": 600000
+					}
+				},
+				{
+					"id": "schid_ad_49_1",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_49_2",
+					"ch_id": "cocos_program_B120212249_D49_915216",
+					"range": {
+						"start": 600000,
+						"end": 1200000
+					}
+				},
+				{
+					"id": "schid_ad_49_2",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_49_3",
+					"ch_id": "cocos_program_B120212249_D49_915216",
+					"range": {
+						"start": 1200000,
+						"end": 1800000
+					}
+				},
+				{
+					"id": "schid_ad_49_3",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_49_4",
+					"ch_id": "cocos_program_B120212249_D49_915216",
+					"range": {
+						"start": 1800000,
+						"end": 2400000
+					}
+				},
+				{
+					"id": "schid_ad_49_4",
+					"ch_id": "cocos_ad_60s_20210528_2mbps",
+					"range": {
+						"start": 0,
+						"end": 60000
+					}
+				},
+				{
+					"id": "schid_49_5",
+					"ch_id": "cocos_program_B120212249_D49_915216",
+					"range": {
+						"start": 2400000,
+						"end": 2950000
+					}
+				}
+			]
+		},
+		"output": {
+			"base_dir": "%r/%s",
+			"clear_when_finish": true,
+			"segment_opt": {
+				"playlist_chunk_count": 10,
+				"max_chunk_count": 30,
+				"duration_time": 6,
+				"align_by_src": true
+			},
+			"variant": {
+				"memory_caching": false,
+				"sort_order": "bandwidth",
+				"item": {
+					"codec": true,
+					"bandwidth": true,
+					"resolution": true,
+					"framerate": true,
+					"sar": false,
+					"samplerate": false,
+					"channel": false,
+					"lang": true
+				},
+				"output_path": [
+					{
+						"o_type": "gateway_m3u8",
+						"combine": "%f/playlist.m3u8"
+					},
+					{
+						"o_type": "mpd",
+						"combine": "%f/manifest.mpd"
+					}
+				]
+			},
+			"hls": {
+				"ad_marker": "scte35enh",
+				"discontinuity_seq": true,
+				"memory_caching": false,
+				"start_sequence_num": 0,
+				"hls_version": 3,
+				"output_path": [
+					{
+						"o_type": "m3u8",
+						"combine": "%f/%a/chunklist.m3u8"
+					},
+					{
+						"o_type": "gateway_m3u8",
+						"combine": "%f/%a/playlist.m3u8"
+					},
+					{
+						"o_type": "ts_segment",
+						"combine": "%f/%a/segment_%n.ts"
+					}
+				]
+			}
+		}
+	}
+}
